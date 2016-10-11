@@ -1,0 +1,66 @@
+brew install tmux    #安装tmux
+tmux attach   #可以当启动tmux使用- -.
+tmux new-session -s rails  #创建rails 会话
+tmux new-session -s rails -d   #在后台创建rails
+tmux list-sessions / tmux ls   #列出所有正在运行的会话
+tmux a -t rails #进入rails 会话
+tmux kill-session -t rails   #关闭rails 会话
+tmux kill-server   #关闭tmux服务，所有的会话将被关闭
+tmux 默认的快捷键是Ctrl B(下面用C代替），常见的操作：
+C  d  #隐藏会话
+C  c   #新开一个窗口
+C   &   #退出当前窗口
+C   ，  #重命名窗口
+C   数字     #切换到第几个窗口
+C   n     #切换到下个窗口
+C   p     #切换到上个窗口
+C   l       #切换到最后一个窗口
+C    w    #以菜单的方式显示和选择窗口
+C   ”       #横向分割窗口
+C %       #纵向分割窗口
+C   o      #跳到下一个分割窗口
+C   上下左右    #跳到指定方向的分割窗口
+C    x    #关闭当前分割窗口
+C   ！    #关闭所有分割窗口
+C Ctrl-方向键   #调整分割窗口大小
+C   ？  显示快捷键帮助
+C   t    显示时钟
+C  [     #进入拷贝模式，可以使用上下左右来翻页，Enter退出
+C  ]      #粘贴
+space   #开始复制（拷贝模式）
+tmux的配置文件在~/.tmux.conf，如果没有，手动创建一个。])
+
+
+#sublime
+mac os 下的sublime ---列模式
+http://www.oschina.net/question/249672_161413
+触控板也可以的：左手同时按住 Option 和触控板左下角 + 右手单指滑动
+
+(按住 option键，另外三指操作即可)
+
+
+  http://www.cnblogs.com/jadeboy/p/5049340.html
+
+  有时我们需要对一片区域的所有行进行同时编辑，Ctrl+Shift+L
+
+  合并，Ctrl + J(mac下Command＋J)
+sublime分屏:  
+cmd + k , cmd + 方向键上下 可以分屏或取消分屏
+cmd + k, cmd + 方向键左右，可以在分屏间切换
+cmd + 数字，可以在单个分屏的不同文件间切换
+
+#split screen chrome
+CTRL + SHIFT + Z: Undo Last Resize
+CTRL + SHIFT + 1: 1x1 Resize
+CTRL + SHIFT + 2: 1x2 Resize
+CTRL + SHIFT + 4: 2x2 Resize
+
+#mac lock
+Ctrl+Shift+Power: 关闭屏幕
+Cmd+Opt+Power: 睡眠 (sleep)
+Cmd+Ctrl+Power: 重启 (restart)
+Cmd+Ctrl+Opt+Power: 关机 (shutdown)
+
+#finder
+1. 通过“前往文件夹”快捷键组合, command + shift + g    #前往某个目录
+2. 终端, open $dir
