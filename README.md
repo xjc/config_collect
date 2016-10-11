@@ -40,7 +40,7 @@
 #### packages
 
 ```
-OmniMarkupPreviewer
+
 FileHeader
 ConvertToUTF8
 pygments
@@ -51,7 +51,11 @@ markupsafe
 backrefs
 SublimeLinter
 JSON
-User
 Anaconda
+User
+pyyaml
+OmniMarkupPreviewer
 
 ```
+
+
